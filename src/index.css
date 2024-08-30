@@ -11,3 +11,14 @@
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: linear-gradient(90deg,  rgba(241, 178, 168, 1) 0%, rgb(236, 87, 168, 1) 49%, rgba(91, 90, 247, 1) 100%);
+}
+::-webkit-scrollbar-thumb{
+    background: rgb(52, 52, 52);
+    border-radius: 15px;
+}
